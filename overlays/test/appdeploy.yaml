@@ -3,18 +3,18 @@ kind: Deployment
 metadata:
   annotations: {}
   labels:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+    workload.user.cattle.io/workloadselector: apps.deployment-default-dizutest
   name: dizu
 spec:
   replicas: 3
   selector:
     matchLabels:
-      workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+      workload.user.cattle.io/workloadselector: apps.deployment-default-dizutest
       env: test
   template:
     metadata:
       labels:
-        workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+        workload.user.cattle.io/workloadselector: apps.deployment-default-dizutest
     spec:
       containers:
       - image: markusdhs/testdizu:834107a482513dc338f3f8ea74e664e20a18c273
