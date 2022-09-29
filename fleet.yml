@@ -1,8 +1,6 @@
-namespace: dizutest
-
 targetCustomizations:
  - name: test
    namespace: dizutest
-   clusterGroup: testclusters
+   clusterGroup: dscclusters
    kustomize:
      dir: overlays/test
