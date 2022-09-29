@@ -9,7 +9,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-dizutest
+    workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
   type: ClusterIP
 status:
   loadBalancer: {}
