@@ -1,3 +1,5 @@
+namespace: dizutest
+
 targetCustomizations:
  - name: test
    namespace: dizutest
