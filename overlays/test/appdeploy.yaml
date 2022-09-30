@@ -19,7 +19,7 @@ spec:
         env: test
     spec:
       containers:
-      - image: markusdhs/testdizu:1c9a6ce2d4cc98589439acf90af8a5ccf373ad19
+      - image: markusdhs/testdizu:64826ef7a5a92d6547873ecdcc6bdb421af2ca76
         imagePullPolicy: Always
         name: container-0
         ports:
